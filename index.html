@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title >Rock Paper Scissors Game</title>
+        <title >Rock paper scissors Game</title>
         <link rel="stylesheet" href="./app.css">
     </head>
     <body>
         <div class="wrapper">
-            </div class="titleContainer">
-                <h1 class="title">Rock,paper,scissors -let's Start!</h1>
+            <div class="titleContainer">
+                <h1 class="title">Rock,paper,scissors Game-let's Start!</h1>
+                 </div>
+
+                <div class="resultWrapper">
+                <div class="resultContainer">
+               <div class="resultRow">ComputerPlay:<span id="computersChoice"></span></div>
+                <div class="resultRow">User:<span id="userChoice"></span></div>
+                <div class="resultRow">Result:<span id="result"></span></div>
+            </div>
+            <div class="emojiContainer">
+                <img
+                class="emojiImage"
+                src="https://freepngimg.com/thumb/emoji/47426-8-smiley-hd-free-transparent-image-hd.png"
+                alt="emoji"
+                id="emoji"
+           / >
            </div>
-
-            <div class="resultWrapper">
-              </div class="resultContainer">
-            </div class="resultRow">
-                <div>Computer: <span id="computersChoice"></span></div>
                 </div>
-            </div class="resultRow">
-                <div>User: <span id="userChoice"></span></div>
-            </div>
-        </div class="resultRow">
-                <div>Result:<span id="result"></span></div>
-            </div>
-        </div class="resultRow">
-            </div>
+        
 
+
+
+
+      <div class="buttonWrapper">
         <div class="buttonContainer">
             <button class="rock" id="rock">rock</button>
             <button class="paper" id="paper">paper</button>
@@ -31,8 +38,9 @@
             <div class="resetButtonContainer">
                 <button class="resetButton" id="reset">Reset</button>
             </div>
+            </div>
            </div>
-          </div>
+           </div>
         <script src="./app.js"></script>
     </body>
 </html>

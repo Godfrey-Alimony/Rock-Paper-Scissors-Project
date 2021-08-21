@@ -1,0 +1,96 @@
+body, html {
+    background-color: #607d60;
+    font-family: "segoe UI",Arial,sans-serif;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.resultWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.resultRow {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+
+.resultRow {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.buttonWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buttonContainer {
+    padding: 100px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    color:#fff
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font: size 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 3px;
+
+}
+
+button.hover {
+    cursor: pointer;
+    background-color: #fff;
+    color:black;
+}
+
+.rock {
+    background-color: #fff;
+}
+.paper {
+    background-color: #a9a9a9;
+}
+
+.scissors {
+    background-color: #f44336;
+}
+
+.resetButton {
+    background-color: #ffa500;
+}
+
+.emojiImage {
+    height: 200px;
+    margin-left: 30px;
+}
+
+
+
+
