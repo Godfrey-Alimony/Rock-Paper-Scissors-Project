@@ -26,7 +26,7 @@ const getComputerPlay = () => {
 const gameLogic = (user) => {
     const computer = getComputerPlay();
      //logic
-    if (computer == "rock" && user == "rock"){
+    if (computer == user){
         result = resultArray[0];
         console.log("result: draw");
     }else if (computer == "scissors" && user == "rock"){
@@ -41,15 +41,9 @@ const gameLogic = (user) => {
     }else if (computer == "scissors" && user == "paper"){
         result = resultArray[2];
         console.log("result:lose");
-    }else if (computer == "paper" && user == "paper"){
-        result = resultArray[0];
-        console.log("result: draw");
     }else if (computer =="rock" && user == "scissors"){
         result = resultArray[2];
         console.log("result: lose");
-    }else if (computer == "scissors" && user == "scissors"){
-        result = resultArray[0];
-        console.log("result:draw");
     }else if (computer == "paper" && user == "scissors"){
         result = resultArray[1];
         console.log("result: win");
